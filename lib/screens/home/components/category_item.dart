@@ -17,7 +17,7 @@ class CategoryItem extends StatelessWidget {
     return GestureDetector(
       onTap: press,
       child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         child: Column(
           children: <Widget>[
             Text(
@@ -33,7 +33,7 @@ class CategoryItem extends StatelessWidget {
             ),
             if (isActive)
               Container(
-                margin: EdgeInsets.symmetric(vertical: 5),
+                margin: EdgeInsets.symmetric(vertical: 3),
                 height: 3,
                 width: 22,
                 decoration: BoxDecoration(
