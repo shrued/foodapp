@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:food_app/constants.dart';
 import 'package:food_app/screens/details/components/app_bar.dart';
+import 'package:food_app/screens/details/components/body.dart';
 
 class DetailsScreen extends StatelessWidget {
   @override
@@ -8,6 +9,7 @@ class DetailsScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: kPrimaryColor,
       appBar: detailsAppBar(),
+      body: Body(),
     );
   }
 }
